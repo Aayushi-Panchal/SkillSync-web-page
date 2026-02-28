@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SkillSync - AI Learning Platform</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "cfa777b0-77d7-4cd5-a683-d1d5c3ef3b9e",
+    region: "au-syd",
+    serviceInstanceID: "3215cb66-4984-41ea-acf6-e646eb8b0c7e",
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+    (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+    "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">⚡ SkillSync - By Aayushi </h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">AI Programs</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero">
+
+<div class="hero-text">
+
+<h4>Welcome to SkillSync</h4>
+
+<h1>
+Learn Engineering & <span>AI Skills</span><br>
+From Anywhere
+</h1>
+
+<p>
+SkillSync empowers engineering students with modern
+AI tools, programming skills and industry-ready
+learning experiences through interactive online education.
+</p>
+
+<div class="buttons">
+<button class="btn-primary">Start Learning</button>
+<button class="btn-secondary">Explore Courses</button>
+</div>
+
+</div>
+
+
+<div class="hero-image">
+<img src="images/student.jpg" alt="Engineering Students">
+</div>
+
+</section>
+
+
+
+<!-- FEATURES -->
+<section class="features">
+
+<h2>Why Choose SkillSync?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>AI Powered Learning</h3>
+<p>Learn latest AI technologies designed for engineering students.</p>
+</div>
+
+<div class="card">
+<h3>Industry Projects</h3>
+<p>Work on real-world projects and practical applications.</p>
+</div>
+
+<div class="card">
+<h3>Expert Mentors</h3>
+<p>Guidance from professionals and experienced developers.</p>
+</div>
+
+<div class="card">
+<h3>Career Support</h3>
+<p>Placement preparation and internship opportunities.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA -->
+<section class="cta">
+<h2>Start Your AI Journey Today 🚀</h2>
+<button class="btn-primary">Join Now</button>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 SkillSync - By Aayushi | Empowering Engineers with AI Skills</p>
+</footer>
+
+
+<!-- Watson Assistant will go here -->
+<script src="script.js"></script>
+
+</body>
+</html>
