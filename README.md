@@ -27,7 +27,7 @@ The project combines a traditional educational website with an AI-powered conver
 
 ---
 
-## Key Features
+## Key Features   
 
 ### Course Exploration
 
